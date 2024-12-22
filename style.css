@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reem+Kufi:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+
+body{
+     height: 100vh;
+     background: linear-gradient(#de297d,#ca1b6d);
+     padding: 50px 5%;     
+}
+
+
+
+
+
+.contianer{
+      position: relative;
+      height: 100%;
+      background: #6d23823f;
+      border:  solid 2px #ffffff;
+      border-radius: 30px;
+}
+
+
+
+ header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+
+
+
+
+
+.logo{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+.navbar a{
+
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 36px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+
+.talk{
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 4px transparent  solid;
+    text-transform: capitalize;
+}
+
+.talk:hover{
+    border-color:#a4919a;
+
+}
+
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color: #fff;
+    animation-delay: 1.2s;
+}
+
+
+.type h1{
+    font-size: 34px;
+    line-height: 2;
+}
+
+.type h3{
+    font-size: 25px;
+
+}
+
+.type p{
+    margin: 10px 0 20px;
+}
+
+
+.media{
+    position: absolute;
+    bottom: 60px;
+    margin-left: 50px;
+}
+
+.media a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.media a:hover{
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #ca1b6d;
+}
+
+.home-image .box{
+   position: relative;
+   width: 28vw;
+   height: 28vw;
+   border: 2px solid #fff;
+   border-radius: 50%;
+   box-shadow: 0 0 20px #fff;
+   overflow: hidden;
+}
+
+
+.home-image .box img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
